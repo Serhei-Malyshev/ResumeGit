@@ -1,0 +1,286 @@
+/* -------------------практика---------------- */
+
+body {
+	font-family: "Montserrat", sans-serif;
+}
+
+/* общий блок "main" начало*/
+.styles-main {
+	display: flex;
+	background-color: #f5f7fa;
+	width: 1200px;
+	margin: 0 auto;
+	padding: 40px;
+}
+/* общий блок "main" конец */
+
+/* блок САЙДБАР начало */
+.styles-nav {
+	background-color: #1d382d;
+	padding-top: 40px;
+}
+
+/* блок "Контакты" начало */
+
+.styles_title-contacts {
+	color: #fff;
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 27px;
+}
+
+.styles_block-contacts {
+	margin-left: 40px;
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: #8e949c;
+	padding-bottom: 45px;
+	padding-top: 45px;
+}
+
+.styles_link-tel {
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: #8e949c;
+}
+
+.styles_link-mail {
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: #8e949c;
+}
+.styles_link-telegram {	
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: #8e949c;
+}
+.styles_link-instagram {
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: #8e949c;
+}
+.styles_link-facebook {
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: #8e949c;
+}
+.styles_link-viber {
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: #8e949c;
+}
+/* блок "контакты" конец */
+
+/* блок "Tech Skills" начало */
+
+.styles_block-tech-skills {
+	margin-left: 20px;
+	padding-bottom: 45px;
+}
+
+.styles_title-tech_skills {
+	color: #fff;
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 27px;
+	margin-left: 23px;
+}
+
+.styles_tech_skills-list {
+	color: #fb6d3a;
+}
+
+.styles_tech_skills-text_color {
+	color: #fff;
+}
+
+/* блок "Tech Skills" конец */
+
+/* блок "Soft Skills" начало */
+
+.styles_title-soft_skills {
+	color: #fff;
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 27px;
+	margin-left: 23px;
+}
+
+.styles_block-soft_skills {
+	margin-left: 20px;
+}
+
+.styles_soft_skills-list {
+	color: #fb6d3a;
+}
+
+.styles_soft_skills-text_color {
+	color: #fff;
+}
+
+/* блок "Soft Skills" конец */
+
+/* блок САЙДБАР конец */
+
+/* блок "контент" начало */
+
+.styles-content {
+	background-color: #fff;
+	width: 830px;
+	padding-left: 90px;
+	padding-right: 90px;
+	box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* блок "контент" конец */
+
+/* блок "about" начало */
+
+.styles_block-about {
+	background-color: #fff;
+	margin-bottom: 40px;
+}
+
+.styles_about-title {
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 17px;
+	color: #000000;
+	margin-bottom: 10px;
+}
+
+.styles_about-name {
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 45px;
+	line-height: 55px;
+	color: #000000;
+	margin-bottom: 25px;
+}
+
+.styles_about-text {
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: #595959;
+	width: 400px;
+	text-align: justify;
+}
+/* block "about" конец
+
+/* block "Освіта" начало */
+
+.styles_block-osvita {
+	margin-bottom: 50px;
+	display: flex;
+	flex-direction: column;
+	text-align: justify;
+}
+
+.styles_osvita-text {
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	color: #595959;
+}
+
+.styles_osvita-title {
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 27px;
+	color: #000000;
+	margin-bottom: 10px;
+}
+
+.styles_img-diplom_kkz1 {
+	margin-right: 20px;
+	float: left;
+}
+
+.styles_img-diplom_popova1 {
+	margin-right: 20px;
+	float: left;
+}
+
+/* block "Освіта" конец */
+
+/* block "work" начало */
+.styles_block-work {
+	background-color: #fff;
+	color: #595959;
+	margin-bottom: 40px;
+}
+
+.styles_work-title {
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 27px;
+	color: #000000;
+	margin-bottom: 10px;
+}
+
+.styles_work-subtitle {
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 20px;
+	color: #000000;
+	margin-bottom: 10px;
+}
+
+.styles_work-text_orange {
+	color: #fb6d3a;
+}
+
+.styles_work-date {
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 15px;
+	color: #a8a8a8;
+}
+
+.styles_work-none_ul {
+	padding: 15px;
+}
+/* block "work" конец */
